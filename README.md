@@ -42,3 +42,25 @@ CSS’in hangi HTML öğelerine stil uygulayacağını belirler. (Element (p), I
 CSS’te öğelere uygulanabilecek stil kurallarını belirler. (color, font-size, margin, padding)
 3. Değerler (Values)
 Özelliklerin alabileceği durumlardır. (color:red; font-size: 18px; margin:10px; padding:20px;)
+
+# 2-Ölçü Birimleri
+## 2.1-Mutlak Ölçü Birimleri
+Mutlak ölçü birimleri sabit değerlerdir ve ekrana veya ortama bağlı olarak değişmezler. Bunlar şunlardır;
+* cm
+* mm
+* in
+* pc
+* pt
+* px
+## 2.2-Göreceli Ölçü Birimleri
+Belirli bir referansa bağlı olarak değişkenlik gösteren ölçü birimleridir. Bunlar şunlardır;
+* Metne göre;
+* * em,
+* * rem
+* * ex
+* * ch
+* Kapsayıcıya göre;
+* * vw
+* * vh
+* * vmin
+* * vmax
