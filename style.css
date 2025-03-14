@@ -1,8 +1,45 @@
-#paragraf{
+#p1{
+    font-size: 30pt;
+}
+#p2{
+    font-size: 40px;
+}
+html{
+    font-size: 30px;
+}
+div{
+    font-size: 30px;
+}
+#p3{
+    font-size: 2em;
+}
+#p4{
+    font-size: 1rem;
+}
+
+#box{
+    width: 50vw;
+    height: 25vh;
+    border: 1px solid black;
+}
+
+#nested-box{
+    border: 1px solid black;
+    width: 50%;    
+    height: 50%;
     background-color: gray;
 }
-.paragraf{
-    color: brown;
+
+
+#box-2{
+    width: 10vmax;
+    height: 25vh;
+    border: 1px solid black;
+}
+
+#nested-box-2{
+    border: 1px solid black;
+    width: 50%;    
+    height: 50%;
     background-color: gray;
-    font-size: 30px;
 }
