@@ -42,3 +42,39 @@ CSS’in hangi HTML öğelerine stil uygulayacağını belirler. (Element (p), I
 CSS’te öğelere uygulanabilecek stil kurallarını belirler. (color, font-size, margin, padding)
 3. Değerler (Values)
 Özelliklerin alabileceği durumlardır. (color:red; font-size: 18px; margin:10px; padding:20px;)
+
+# 2-Ölçü Birimleri
+## 2.1-Mutlak Ölçü Birimleri
+Mutlak ölçü birimleri sabit değerlerdir ve ekrana veya ortama bağlı olarak değişmezler. Bunlar şunlardır;
+* cm
+* mm
+* in
+* pc
+* pt
+* px
+## 2.2-Göreceli Ölçü Birimleri
+Belirli bir referansa bağlı olarak değişkenlik gösteren ölçü birimleridir. Bunlar şunlardır;
+* Metne göre;
+* * em,
+* * rem
+* * ex
+* * ch
+* Kapsayıcıya göre;
+* * vw
+* * vh
+* * vmin
+* * vmax
+
+# 3-Renkler
+## 3.1-Renk Tanımlama Yöntemleri
+* Renk İsimleri
+* RGB (Red,Green,Blue)
+* RGBA (Red,Green,Blue,Alpha)
+* HEX
+* HSL (Hue,Saturation,Lightness)
+* HSLA (Hue,Saturation,Lightness,Alpha)
+## 3.2-Renk Paletleri ve Araçlar
+* W3Schools Color Names: https://www.w3schools.com/colors/colors_names.asp
+* Color Hunt: https://colorhunt.co/
+* Brand Colors: https://brandcolors.net/
+* ColorZilla Chrome Extensions: https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=tr
