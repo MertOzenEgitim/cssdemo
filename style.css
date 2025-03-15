@@ -1,45 +1,23 @@
-#p1{
-    font-size: 30pt;
-}
-#p2{
-    font-size: 40px;
-}
-html{
-    font-size: 30px;
-}
 div{
-    font-size: 30px;
+    width: 50px;
+    height: 50px;
 }
-#p3{
-    font-size: 2em;
+#box1{
+    background-color: blue;
 }
-#p4{
-    font-size: 1rem;
+#box2{
+    background-color: rgb(128,128,128);
 }
-
-#box{
-    width: 50vw;
-    height: 25vh;
-    border: 1px solid black;
+#box3{
+    background-color: rgba(178,58,65,0.5);
 }
-
-#nested-box{
-    border: 1px solid black;
-    width: 50%;    
-    height: 50%;
-    background-color: gray;
+#box4{
+    background-color: hsl(270, 100%, 50%);
 }
-
-
-#box-2{
-    width: 10vmax;
-    height: 25vh;
-    border: 1px solid black;
+#box5{
+    background-color: hsla(270, 100%, 50%,0.3);
 }
-
-#nested-box-2{
-    border: 1px solid black;
-    width: 50%;    
-    height: 50%;
-    background-color: gray;
+#box6{
+    /* background-color: #ffaa55;  */
+    background-color: #fa5;
 }

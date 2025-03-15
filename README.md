@@ -64,3 +64,17 @@ Belirli bir referansa bağlı olarak değişkenlik gösteren ölçü birimleridi
 * * vh
 * * vmin
 * * vmax
+
+# 3-Renkler
+## 3.1-Renk Tanımlama Yöntemleri
+* Renk İsimleri
+* RGB (Red,Green,Blue)
+* RGBA (Red,Green,Blue,Alpha)
+* HEX
+* HSL (Hue,Saturation,Lightness)
+* HSLA (Hue,Saturation,Lightness,Alpha)
+## 3.2-Renk Paletleri ve Araçlar
+* W3Schools Color Names: https://www.w3schools.com/colors/colors_names.asp
+* Color Hunt: https://colorhunt.co/
+* Brand Colors: https://brandcolors.net/
+* ColorZilla Chrome Extensions: https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=tr
