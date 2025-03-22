@@ -78,3 +78,20 @@ Belirli bir referansa bağlı olarak değişkenlik gösteren ölçü birimleridi
 * Color Hunt: https://colorhunt.co/
 * Brand Colors: https://brandcolors.net/
 * ColorZilla Chrome Extensions: https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=tr
+
+# 4-CSS Box Model (Kutu Modeli)
+
+![css-box-model](/readmeimage/css-box-model.png)
+
+Varsayılan olarak, bir kutunun genişliği ve yüksekliği sadece içeriği kapsar, `padding` ve `border` bu 
+genişliğe dahil edilmez. Ancak box-sizing: `border-box;` kullanarak `padding` ve `border`’ın genişlik ve 
+yüksekliğe dahil edilmesini sağlayabiliriz.
+
+* width: Kutunun genişliği belirler
+* height: Kutunun yüksekliği belirler
+
+* max-width: Kutunun maksimum genişliğini belirler.
+* min-width: Kutunun minimum genişliğini belirler.
+
+* max-height: Kutunun maksimum yüksekliğini belirler.
+* min-height: Kutunun minimum yüksekliğini belirler.
