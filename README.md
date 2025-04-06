@@ -95,3 +95,11 @@ yüksekliğe dahil edilmesini sağlayabiliriz.
 
 * max-height: Kutunun maksimum yüksekliğini belirler.
 * min-height: Kutunun minimum yüksekliğini belirler.
+
+# 5-CSS Selectors (Seçiciler)
+* Element
+* ID
+* Class
+* Specificity Kavramı
+* !important
+[Specificity Calculator](https://specificity.keegan.st/)

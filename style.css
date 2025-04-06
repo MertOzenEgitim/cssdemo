@@ -3,25 +3,34 @@ body{
     color:white;
     margin: 0;
 }
-.box{
-    /* padding: 10px; */
-    /* padding: 10px 10px 10px 10px; */
-    /* padding: 10px 20px 10px; */
-    /* padding: 10px 20px 30px; */
-    padding: 10px 20px;
-    /* border: 10px dotted white; */
-    /* border: 10px dashed white; */
-    /* border: 10px solid white; */
-    border-top: 10px solid white;
-    border-right: 10px solid black;
-    border-bottom: 10px solid white;
-    border-left: 10px solid black;
-    box-sizing: border-box;
-    margin: 10px;
-    /* width: 200px; */
-    /* height: 50px; */
-    min-width: 200px;
-    max-width: 500px;
-    min-height: 100px;
-    max-height: 150px;
+/* p{
+    color:greenyellow;
+} */
+/* #name{
+    color:brown;
+}
+p{
+    color:blueviolet;
+}
+.text-green{
+    color:greenyellow;
+} */
+body div p.namesurname{
+    color: greenyellow;
+}
+body div p.namesurname{
+    color:blueviolet!important;
+}
+#box p{
+    color:brown!important;
+}
+body p.namesurname{
+    color: greenyellow;
+}
+body p.namesurname.title{
+    color:white;
+}
+
+ul#primary-nav li.active{
+    color:orangered;
 }
