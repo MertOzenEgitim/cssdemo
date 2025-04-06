@@ -3,34 +3,25 @@ body{
     color:white;
     margin: 0;
 }
-/* p{
-    color:greenyellow;
+/* div{
+    color:orange;
 } */
-/* #name{
-    color:brown;
+div{
+    padding: 10px;
 }
-p{
-    color:blueviolet;
+#box{
+    padding: 20px;
+    color:orange;
 }
-.text-green{
-    color:greenyellow;
-} */
-body div p.namesurname{
-    color: greenyellow;
+#nested-box{
+    /* padding: inherit; */
+    /* padding: initial; */
+    color:revert;
+    padding: unset;
 }
-body div p.namesurname{
-    color:blueviolet!important;
-}
-#box p{
-    color:brown!important;
-}
-body p.namesurname{
-    color: greenyellow;
-}
-body p.namesurname.title{
-    color:white;
-}
-
-ul#primary-nav li.active{
-    color:orangered;
+strong{
+    /* font-weight: revert; */
+    font-weight: initial;
+    /* color:initial; */
+    color:revert;
 }

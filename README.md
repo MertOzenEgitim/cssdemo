@@ -103,3 +103,13 @@ yüksekliğe dahil edilmesini sağlayabiliriz.
 * Specificity Kavramı
 * !important
 [Specificity Calculator](https://specificity.keegan.st/)
+
+# 6-CSS Inheritance (Kalıtım)
+* Kalıtılan Özellikler
+* * color, font-family, line-height vs.
+* Kalıtılmayan Özellikler
+* * margin, padding, border, background vs.
+* Inherit Kullanımı
+* Global Değerler
+* * initial, unset, revert
+* Inheritance ve Specificity İlişkisi
