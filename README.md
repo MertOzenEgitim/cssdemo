@@ -113,3 +113,10 @@ yüksekliğe dahil edilmesini sağlayabiliriz.
 * Global Değerler
 * * initial, unset, revert
 * Inheritance ve Specificity İlişkisi
+
+# 7-CSS Combinator Selectors
+* Descendant combinator (space)
+* Child combinator (>)
+* Next sibling combinator (+)
+* Subsequent-sibling combinator (~)
+

@@ -3,25 +3,18 @@ body{
     color:white;
     margin: 0;
 }
-/* div{
-    color:orange;
+/* div p{
+    border:1px solid blue;
+}
+ul li{
+    border:1px solid green;
+}
+ul>li{
+    border:1px solid brown;
 } */
-div{
-    padding: 10px;
-}
-#box{
-    padding: 20px;
-    color:orange;
-}
-#nested-box{
-    /* padding: inherit; */
-    /* padding: initial; */
-    color:revert;
-    padding: unset;
-}
-strong{
-    /* font-weight: revert; */
-    font-weight: initial;
-    /* color:initial; */
-    color:revert;
-}
+ /* h2 + p{
+    border:1px solid orange;
+ } */
+/* h2 ~ p{
+    border:1px solid orange;
+} */
