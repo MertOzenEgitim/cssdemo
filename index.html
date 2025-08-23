@@ -3,33 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Combinator Selectors</title>    
+    <title>Pseudo Class / Element ve İleri Seçiciler</title>    
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
+    <!-- <h3>Yapısal</h3> -->
     <!-- <div>
-        <p>İlk Paragraf</p>
-        <p>Son Paragraf</p>
-        <div>
-            <p>İçteki paragraf</p>
-        </div>
+        <span>Tek çocuk</span>
     </div>
-    <ul>
-        <li>İstanbul
-            <ol>
-                <li>Beşiktaş</li>
-            </ol>
-        </li>
-        <li>Ankara</li>
-        <li>İzmir</li>
-    </ul> -->
     <div>
-        <h2>Başlık</h2>
-        <p>p1</p>
-        <div>
-            <p>nested p</p>
-        </div>        
-        <p>p2</p>
+        <span>1. çocuk</span>
+        <span>2. çocuk</span>
     </div>
+
+    <ul>
+        <li>1.Eleman</li>
+        <span>span</span>
+        <li>2.Eleman</li>
+        <li>3.Eleman</li>
+        <li>4.Eleman</li>
+        <li>5.Eleman</li>
+        <li>6.Eleman</li>
+    </ul> -->
+    <!-- <h3>Kullanıcı Etkileşimli</h3> -->
+    <!-- <a href="#">Bu bir linktir</a>
+    <button>Tıkla</button>
+    <label for="name">Adınız:</label>
+    <input type="text" id="name" placeholder="Adınızı girin"> -->
+    
+    <!-- ---------- Form Durumları------------ -->
+    <!-- <input type="checkbox" id="cb1">
+    <label for="cb1">Kuralları kabul ediyorum.</label>
+    <input type="text" placeholder="Bu alan aktif">
+    <input type="text" placeholder="Bu alan pasif" disabled>
+    <input type="text" placeholder="optional">
+    <input type="text" placeholder="required" required> -->
+
+    <!-- <form>
+        <label>Email:</label>
+        <input type="email" required placeholder="ornek@gmail.com">
+        <label>Şifre:</label>
+        <input type="password" minlength="6" required>
+        <button type="submit">Gönder</button>
+    </form> -->
+
+    <!-- ---------- İçerik Ekleme------------  -->
+    <!-- <p>Bu bir paragraf.</p> -->
+    <!-- ---------- Metin İşlemleri------------   -->
+    <!-- <p>Lorem ipsum dolor sit amet.</p>
+    <p class="first-line">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nemo fuga, dolor ab ducimus accusamus laudantium rerum odio amet rem distinctio, placeat cum ut officia. Eum quod atque exercitationem odit.</p>
+    <ul>
+        <li>Elma</li>
+        <li>Armut</li>
+        <li>Kiraz</li>
+    </ul>
+    <input type="text" placeholder="Adınızı girin"> -->
+    <!-- ----------İleri Seçiciler----------   -->
+    <!-- <h2>Başlık</h2>
+    <a href="#">Bu bir link</a>
+    <p>Paragraf</p>
+    <ul>
+        <li>1</li>
+        <li class="active">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <div></div>
+    <div><span>mert</span></div>
+    <p lang="tr">Merhaba Dünya!</p>
+    <p lang="en">Hello World!</p> -->
+    <!-- ----------Attribute Seçiciler----------   -->
+     <!-- <a href="https://example.com">Link var</a>
+     <a>Link yok</a>
+     <input type="text" placeholder="Metin alanı">
+     <input type="password" placeholder="Şifre"> -->
+     <!-- <a href="https://example.com">Link var https</a>
+     <a href="http://example.com">Link var http</a> -->
+     <!-- <a href="dosya.pdf">pdf</a>
+     <a href="dosya.jpg">jpg</a> -->
+      <!-- <a href="https://www.googlea.com">Google</a>
+     <a href="https://api.googlea.com">Google API</a>
+     <a href="https://www.yahoo.com">Yahoo</a>  -->
+     
+     <p title="etiket özel bilgi">Özel bilgi</p>
+     <p title="etiket bilgi">bilgi</p>
+
 </body>
 </html>
