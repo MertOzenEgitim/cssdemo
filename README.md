@@ -120,3 +120,12 @@ yüksekliğe dahil edilmesini sağlayabiliriz.
 * Next sibling combinator (+)
 * Subsequent-sibling combinator (~)
 
+# 8-Pseudo-Class/Element ve İleri Seçiciler
+* Yapısal => :nth-child(n) / :nth-of-type(n) / :first-child / :last-child / :only-child
+* Kullanıcı Etkileşimli => :hover / :focus
+* Form Durumları => :checked / :enabled / :disabled / :required / :optional / :valid / :invalid 
+* İçerik Ekleme => ::before / ::after (content)
+* Metin => ::first-letter / ::first-line / ::selection / ::marker / ::placeholder
+* İleri Seçiciler => :is() / :where() / :not() / :empty / :root / :lang() 
+* Attribute Seçiciler => input[required] / a[href="https://example.com"] / img[alt^="icon"] / a[href$=".pdf"] / input[placeholder*="Ad"]
+

@@ -3,18 +3,191 @@ body{
     color:white;
     margin: 0;
 }
-/* div p{
-    border:1px solid blue;
+/* --------Yapısal--------- */
+/* li:nth-child(2){
+    color:red;
+    font-weight: bold;
 }
-ul li{
-    border:1px solid green;
+li:nth-child(even){
+    color:red;
+    font-weight: bold;
 }
-ul>li{
-    border:1px solid brown;
+li:nth-child(odd){
+    color:blueviolet;
+    font-weight: bold;
+}
+li:nth-child(2n){
+    color:orange;
+    font-weight: bold;
+}
+li:nth-child(2n+1){
+    color:greenyellow;
+    font-weight: bold;
 } */
- /* h2 + p{
-    border:1px solid orange;
- } */
-/* h2 ~ p{
-    border:1px solid orange;
+/* li:nth-of-type(2){
+    color:red;
+    font-weight: bold;
+}
+li:nth-of-type(even){
+    color:red;
+    font-weight: bold;
+}
+li:nth-of-type(odd){
+    color:blueviolet;
+    font-weight: bold;
+}
+li:nth-of-type(2n){
+    color:orange;
+    font-weight: bold;
+}
+li:nth-of-type(2n+1){
+    color:greenyellow;
+    font-weight: bold;
 } */
+/* li:first-child{
+    color:greenyellow;
+    font-weight: bold;
+}
+li:last-child{
+    color:orange;
+    font-weight: bold;
+} */
+/* div span:only-child{
+    background-color: lightgreen;
+    display: inline-block;
+    padding: 5px;
+} */
+/* --------Kullanıcı Etkileşimli--------- */
+/* a:hover{
+    color:red;
+}
+button:hover{
+    background-color: blueviolet;
+    color:white;
+}
+input:focus{
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,0,255,0.5);
+} */
+/*---------- Form Durumları------------ */
+/* input[type="checkbox"]:checked + label{
+    color:green;
+    font-weight: bold;
+}
+input:enabled{
+    border: 2px solid green;
+}
+input:disabled{
+    border: 2px solid orange;
+}
+input:required{
+    border: 2px solid red;
+}
+input:optional{
+    border: 2px solid black;
+} */
+/* input{
+    display: block;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+input:valid{
+    border-color: green;
+    background-color: #f0fff0;
+}
+input:invalid{
+    border-color: red;
+    background-color: #fff0f0;
+} */
+ /*---------- İçerik Ekleme------------ */
+/* p::before{
+    content:'👍';
+}
+p::after{
+    content:'🙌';
+} */
+/*---------- Metin İşlemleri------------ */
+/* p::first-letter{
+    font-size: 2em;
+    color:red;
+    font-weight: bold;
+}
+p.first-line::first-line{
+    color:blue;
+}
+p::selection{
+    background-color:aqua;
+    color:black;
+}
+ul li::marker{
+    color:red;
+    font-size: 1.5em;
+    content:'🎶'
+}
+input::placeholder{
+    color:rgb(101, 30, 30);
+    font-style: italic;
+    opacity: 0.7;
+} */
+/*---------- İleri Seçiciler------------ */
+/* :where(a,p,h2):hover{
+    color:red;
+    cursor: pointer;
+}
+:is(a,p,h2):hover{
+    color:blue;
+    cursor: pointer;
+}
+li:not(.active){
+    color:gray;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+div:empty{
+    border:2px solid red;
+}
+p:lang(tr){
+    color:red;
+    font-style: bold;
+}
+p:lang(en){
+    color:blue;
+    font-style: italic;
+}
+:root{
+    --primary-color:blue;
+    --second-color:red;
+}
+p{
+    color:var(--primary-color)!important;
+} */
+/*---------- Attribute Seçiciler------------ */
+/* a{
+    color:gray;
+}
+a[href]{
+    color:red;
+}
+input[type="text"]{
+    border: 2px solid green;
+} */
+/* a[href^="https"]{
+    color:green;
+} */
+/* a[href$=".pdf"]{
+    color:red;
+    font-weight: bold;
+} */
+/* a[href*="google"]{
+    color:orange;
+} */
+[title~="özel"]{
+    background-color:green;
+    display: inline-block;
+    border-radius: 2px;
+}
