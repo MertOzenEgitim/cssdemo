@@ -129,3 +129,9 @@ yüksekliğe dahil edilmesini sağlayabiliriz.
 * İleri Seçiciler => :is() / :where() / :not() / :empty / :root / :lang() 
 * Attribute Seçiciler => input[required] / a[href="https://example.com"] / img[alt^="icon"] / a[href$=".pdf"] / input[placeholder*="Ad"]
 
+# 9-Metin ve Yazı Tipleri
+* color, font-family, font-size, font-weight
+* Metin hizalama: text-align, text-decoration
+* Satır yüksekliği (line-height) ve harf aralığı (letter-spacing)
+* Google Fonts entegrasyonu
+* Projeye Yerel Font Ekleme 

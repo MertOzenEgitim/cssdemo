@@ -1,193 +1,30 @@
-body{
-    background-color: rgb(34, 32, 32);
-    color:white;
-    margin: 0;
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@font-face {
+    font-family: 'Open Sans';
+    src: url(assets/fonts/OpenSans-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
-/* --------Yapısal--------- */
-/* li:nth-child(2){
-    color:red;
-    font-weight: bold;
+@font-face {
+    font-family: 'Open Sans';
+    src: url(assets/fonts/OpenSans-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
-li:nth-child(even){
-    color:red;
-    font-weight: bold;
-}
-li:nth-child(odd){
-    color:blueviolet;
-    font-weight: bold;
-}
-li:nth-child(2n){
-    color:orange;
-    font-weight: bold;
-}
-li:nth-child(2n+1){
-    color:greenyellow;
-    font-weight: bold;
-} */
-/* li:nth-of-type(2){
-    color:red;
-    font-weight: bold;
-}
-li:nth-of-type(even){
-    color:red;
-    font-weight: bold;
-}
-li:nth-of-type(odd){
-    color:blueviolet;
-    font-weight: bold;
-}
-li:nth-of-type(2n){
-    color:orange;
-    font-weight: bold;
-}
-li:nth-of-type(2n+1){
-    color:greenyellow;
-    font-weight: bold;
-} */
-/* li:first-child{
-    color:greenyellow;
-    font-weight: bold;
-}
-li:last-child{
-    color:orange;
-    font-weight: bold;
-} */
-/* div span:only-child{
-    background-color: lightgreen;
-    display: inline-block;
-    padding: 5px;
-} */
-/* --------Kullanıcı Etkileşimli--------- */
-/* a:hover{
-    color:red;
-}
-button:hover{
-    background-color: blueviolet;
-    color:white;
-}
-input:focus{
-    border-color: blue;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0,0,255,0.5);
-} */
-/*---------- Form Durumları------------ */
-/* input[type="checkbox"]:checked + label{
-    color:green;
-    font-weight: bold;
-}
-input:enabled{
-    border: 2px solid green;
-}
-input:disabled{
-    border: 2px solid orange;
-}
-input:required{
-    border: 2px solid red;
-}
-input:optional{
-    border: 2px solid black;
-} */
-/* input{
-    display: block;
-    padding: 8px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-input:valid{
-    border-color: green;
-    background-color: #f0fff0;
-}
-input:invalid{
-    border-color: red;
-    background-color: #fff0f0;
-} */
- /*---------- İçerik Ekleme------------ */
-/* p::before{
-    content:'👍';
-}
-p::after{
-    content:'🙌';
-} */
-/*---------- Metin İşlemleri------------ */
-/* p::first-letter{
-    font-size: 2em;
-    color:red;
-    font-weight: bold;
-}
-p.first-line::first-line{
-    color:blue;
-}
-p::selection{
-    background-color:aqua;
-    color:black;
-}
-ul li::marker{
-    color:red;
-    font-size: 1.5em;
-    content:'🎶'
-}
-input::placeholder{
-    color:rgb(101, 30, 30);
-    font-style: italic;
-    opacity: 0.7;
-} */
-/*---------- İleri Seçiciler------------ */
-/* :where(a,p,h2):hover{
-    color:red;
-    cursor: pointer;
-}
-:is(a,p,h2):hover{
-    color:blue;
-    cursor: pointer;
-}
-li:not(.active){
-    color:gray;
-}
-div{
-    width: 200px;
-    height: 200px;
-}
-div:empty{
-    border:2px solid red;
-}
-p:lang(tr){
-    color:red;
-    font-style: bold;
-}
-p:lang(en){
-    color:blue;
-    font-style: italic;
-}
-:root{
-    --primary-color:blue;
-    --second-color:red;
+
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
-    color:var(--primary-color)!important;
-} */
-/*---------- Attribute Seçiciler------------ */
-/* a{
-    color:gray;
-}
-a[href]{
-    color:red;
-}
-input[type="text"]{
-    border: 2px solid green;
-} */
-/* a[href^="https"]{
-    color:green;
-} */
-/* a[href$=".pdf"]{
-    color:red;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     font-weight: bold;
-} */
-/* a[href*="google"]{
-    color:orange;
-} */
-[title~="özel"]{
-    background-color:green;
-    display: inline-block;
-    border-radius: 2px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 34px;
+    letter-spacing: 2px;
 }
